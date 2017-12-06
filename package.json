@@ -1,0 +1,26 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "A social network that allow users to engage in conversations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "start-dev": "nodemon src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --init"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.5",
+    "sequelize": "^4.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
